@@ -1,0 +1,7 @@
+git init = iniciar o git em seu projeto
+git status = ver os arquivos que estão para ser listados
+git add . = ajeitar o arquivo tracked
+git commit -a -m "Criaçao do arquivo HTML" // comentar no repositório
+
+git config --global user.email "camarodorato@gmail.com" // definir email
+git config --global user.name "Rafael" // definir nome
