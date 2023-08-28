@@ -15,3 +15,5 @@ clear / limpar
 branchs:
 
 git checkout -b "teste"// o flag -b = criando branch novo
+
+git push --set-upstream origin teste // enviar o novo branch para o repositório
