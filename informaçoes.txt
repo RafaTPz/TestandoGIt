@@ -2,6 +2,7 @@ git init = iniciar o git em seu projeto
 git status = ver os arquivos que estão para ser listados para resolver os problemas
 git add . = ajeitar o arquivo tracked
 git commit -a -m "Criaçao do arquivo HTML" // comentar no repositório
+git commit -a -m "novo paragrafo" // sempre comentar em cada mudança
 
 git config --global user.email "camarodorato@gmail.com" // definir email
 git config --global user.name "Rafael" // definir nome
@@ -17,3 +18,9 @@ branchs:
 git checkout -b "teste"// o flag -b = criando branch novo
 
 git push --set-upstream origin teste // enviar o novo branch para o repositório
+
+para alterar o branch:
+git checkout main
+git branch
+
+git merge teste // unir branchs
